@@ -79,7 +79,7 @@ rm *.*
 nano 2048-pod.yaml
 
 ### code starts ###
-apiVersion: v1
+**apiVersion: v1
 kind: Pod
 metadata:
    name: 2048-pod
@@ -90,7 +90,7 @@ spec:
    - name: 2048-container
      image: blackicebird/2048
      ports:
-       - containerPort: 80
+       - containerPort: 80**
 
 ### code ends ###
 
